@@ -1,15 +1,24 @@
 The Code Book contains information on making a tidy data set from the data contained in the 'Human Activity Recognition Using Smartphones Dataset' experiments.
+STUDY DESIGN
+  The study was done by:
+    Smartlab - Non Linear Complex Systems Laboratory
+    DITEN - Università degli Studi di Genova.
+    Via Opera Pia 11A, I-16145, Genoa, Italy.
+  Further information on the study can be found at the following website:
+    http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+  The .zip file below also has a nice README document with full details
 THE DATA
-The data was obtained from the following website:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-The data consisted or measurements (561) of different activity (6) on 30 subject (divided into 2 sets - train and test).
-There were 10299 rows of data in the data sets.
-The data was contained in:
-  2 text files for the measurement data - 'test/X_test.txt', 'train/X_train.txt' (numeric)
-  2 text files for the activity labels - 'test/y_test.txt', 'train/y_train.txt' (integer)
-  2 text files for the subjects - 'test/subject_test.txt', 'train/subject_train.txt' (inter)
-  1 text file that named the 561 measurements being record, 'features.txt' (text)
-The data was spread out over these 7 text file data sets.
-The purpose of this project was to:
+  The data was obtained from the following website:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  The data consisted or measurements (561) of different activity (6) on 30 subject (divided into 2 sets - train and test).
+  There were 10299 rows of data in the data sets.
+  The data was contained in:
+    2 text files for the measurement data - 'test/X_test.txt', 'train/X_train.txt' (numeric)
+    2 text files for the activity labels - 'test/y_test.txt', 'train/y_train.txt' (integer)
+    2 text files for the subjects - 'test/subject_test.txt', 'train/subject_train.txt' (inter)
+    1 text file that named the 561 measurements being record, 'features.txt' (text)
+    The data was spread out over these 7 text file data sets.
+
+The purpose of this my project was to:
   1. Merge the test and train data sets.
   2. Select a subset of measurements from the data (measurements on mean() and std() only)
   3. Use descriptive names to label the activities: "Walking","Walking upstairs", "Walking downstairs", "Sitting", "Standing", "Laying"
@@ -17,7 +26,7 @@ The purpose of this project was to:
   5. Creates second, independent tidy data set with the average of each variable for each activity and each subject 
       This tidy data frame consisted of 66 measurements on 30 subjects for 6 activities, or a dim(180,66)
   
-  THE VARIABLES
+CODE BOOK
   Step 1.)
     testset - data set containing test subject measurement data
     trainset - data set containing train subject measurement data
@@ -46,6 +55,7 @@ The purpose of this project was to:
     TidyData - the tidy data set that was built from the totalsetMnStdActLabSubIntact
     ActivityTxt - the string vector of the 6 activities
     RowNames - the string vector built to rename row names in TidyData data.frame with subject and activity
-  
+    
+
 
   
