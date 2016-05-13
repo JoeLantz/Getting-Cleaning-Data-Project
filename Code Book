@@ -17,6 +17,35 @@ The purpose of this project was to:
   5. Creates second, independent tidy data set with the average of each variable for each activity and each subject 
       This tidy data frame consisted of 66 measurements on 30 subjects for 6 activities, or a dim(180,66)
   
+  THE VARIABLES
+  Step 1.)
+    testset - data set containing test subject measurement data
+    trainset - data set containing train subject measurement data
+   totalset - merge (rbind) of testset and trainset data
+  
+    testlabel - data set containing test subject integer
+    trainlabel - data set containing train subject integer
+    totallabel - merge (rbind) of testlabel and trainlabel data (integer)
+  Step 2.)
+    features - data set containing the text name for the measures 
+   MeanStdInd - the indices for selecting only the mean() and std() measurements
+   MeanStdIndSrt - the sorted indices set
+    totalsetMnStd - the measurement data set with only the select measuremenst
+  Step 3.)
+    totallabelTxt - the data set with the descriptive activity name 
+  totalsetMnStdAct - the measurement data set with the descriptive activity name column added
+  Step 4.) 
+    totalsetMnStdActLab - the measurement data set with the descriptive measurement name added
+  Step 5.)
+    SubjectTrain - data set containing the train subjects (integer)
+    SubjectTest - data set containing the test subjects (integer)
+    totalSubject - merge (rbind) of SubjectTrain and SubjectTest
+    totalsetMnStdActLabSub - the measurement data set with subject column added
+    totalsetMnStdActLabSubIntact - the measurement data set with the activity (integer) column added
+      Note: Used in the logical statement for selection of specific activity for specific subject
+    TidyData - the tidy data set that was built from the totalsetMnStdActLabSubIntact
+    ActivityTxt - the string vector of the 6 activities
+    RowNames - the string vector built to rename row names in TidyData data.frame with subject and activity
   
 
   
