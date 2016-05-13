@@ -18,7 +18,8 @@ THE DATA
     1 text file that named the 561 measurements being record, 'features.txt' (text)
     The data was spread out over these 7 text file data sets.
 
-The purpose of this project is to:
+The purpose of this project is to create a tidy data set from all the disperate files and tersely named variables.
+The work was performed in a series of steps described below:
   1. Merge the test and train data sets.
   2. Select a subset of measurements from the data (measurements on mean() and std() only)
   3. Use descriptive names to label the activities: "Walking","Walking upstairs", "Walking downstairs", "Sitting", "Standing", "Laying"
