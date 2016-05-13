@@ -18,7 +18,7 @@ THE DATA
     1 text file that named the 561 measurements being record, 'features.txt' (text)
     The data was spread out over these 7 text file data sets.
 
-The purpose of this my project was to:
+The purpose of this project is to:
   1. Merge the test and train data sets.
   2. Select a subset of measurements from the data (measurements on mean() and std() only)
   3. Use descriptive names to label the activities: "Walking","Walking upstairs", "Walking downstairs", "Sitting", "Standing", "Laying"
@@ -30,19 +30,19 @@ CODE BOOK
   Step 1.)
     testset - data set containing test subject measurement data
     trainset - data set containing train subject measurement data
-   totalset - merge (rbind) of testset and trainset data
+    totalset - merge (rbind) of testset and trainset data
   
     testlabel - data set containing test subject integer
     trainlabel - data set containing train subject integer
     totallabel - merge (rbind) of testlabel and trainlabel data (integer)
   Step 2.)
     features - data set containing the text name for the measures 
-   MeanStdInd - the indices for selecting only the mean() and std() measurements
-   MeanStdIndSrt - the sorted indices set
+    MeanStdInd - the indices for selecting only the mean() and std() measurements
+    MeanStdIndSrt - the sorted indices set
     totalsetMnStd - the measurement data set with only the select measuremenst
   Step 3.)
     totallabelTxt - the data set with the descriptive activity name 
-  totalsetMnStdAct - the measurement data set with the descriptive activity name column added
+    totalsetMnStdAct - the measurement data set with the descriptive activity name column added
   Step 4.) 
     totalsetMnStdActLab - the measurement data set with the descriptive measurement name added
   Step 5.)
@@ -51,7 +51,7 @@ CODE BOOK
     totalSubject - merge (rbind) of SubjectTrain and SubjectTest
     totalsetMnStdActLabSub - the measurement data set with subject column added
     totalsetMnStdActLabSubIntact - the measurement data set with the activity (integer) column added
-      Note: Used in the logical statement for selection of specific activity for specific subject
+      Note: This variable is used in the logical statement for selection of a specific activity for a specific subject
     TidyData - the tidy data set that was built from the totalsetMnStdActLabSubIntact
     ActivityTxt - the string vector of the 6 activities
     RowNames - the string vector built to rename row names in TidyData data.frame with subject and activity
