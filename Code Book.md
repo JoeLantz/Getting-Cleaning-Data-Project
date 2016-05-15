@@ -20,6 +20,7 @@ THE DATA
 The purpose of this project is to merge the seven *.txt files, select certain measures, take the average for each Subject-Activity pair,
     and then label the new tidy data.frame
 The work was performed in a series of steps described below:
+
   1. Merge the test and train data sets.
   2. Select a subset of measurements from the data (measurements on mean() and std() only)
   3. Use descriptive names to label the activities: "Walking","Walking upstairs", "Walking downstairs", "Sitting", "Standing", "Laying"
