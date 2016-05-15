@@ -23,7 +23,6 @@ This is my project submission for the Coursera 'Getting and Cleaning Data'
 		"./data/test/subject_test.txt" Subject name index
 		
 	The description descriptive names of the values measured.
-	
     	The text file that names the 561 measurements being record:
     	
 		"./data/features.txt" 
