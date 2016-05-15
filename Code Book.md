@@ -13,17 +13,20 @@ Further information on the study can be found at the following website:
     
 THE DATA																          
 
-  The data was obtained from the following website:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-  The data consisted of measurements (561) of different activity (6) on 30 subjects (divided into 2 sets - train and test).
+  The data was obtained from the following website:       	     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip		
+  
+  The data consisted of measurements (561) of different activity (6) on 30 subjects (divided into 2 sets - train and test).					
   There were 10299 rows of data in the data sets.
+  
   The data was contained in:
+  
     2 text files for the measurement data - 'test/X_test.txt', 'train/X_train.txt' (numeric)
     2 text files for the activity labels - 'test/y_test.txt', 'train/y_train.txt' (integer)
     2 text files for the subjects - 'test/subject_test.txt', 'train/subject_train.txt' (integer)
     1 text file that named the 561 measurements being record, 'features.txt' (text)
 
-The purpose of this project is to merge the seven *.txt files, select certain measures, take the average for each Subject-Activity pair,
-    and then label the new tidy data.frame
+The purpose of this project is to merge the seven *.txt files, select certain measures, take the average for each Subject-Activity pair, and then label the new tidy data.frame.
+
 The work was performed in a series of steps described below:
 
   1. Merge the test and train data sets.
