@@ -36,16 +36,20 @@ CODE BOOK
     testlabel - data set containing test subject integer
     trainlabel - data set containing train subject integer
     totallabel - merge (rbind) of testlabel and trainlabel data (integer)
+
   Step 2.)
     features - data set containing the text name for the measures 
     MeanStdInd - the indices for selecting only the mean() and std() measurements
     MeanStdIndSrt - the sorted indices set
     totalsetMnStd - the measurement data set with only the select measuremenst
   Step 3.)
+
     totallabelTxt - the data set with the descriptive activity name 
     totalsetMnStdAct - the measurement data set with the descriptive activity name column added
+
   Step 4.) 
     totalsetMnStdActLab - the measurement data set with the descriptive measurement name added
+
   Step 5.)
     SubjectTrain - data set containing the train subjects (integer)
     SubjectTest - data set containing the test subjects (integer)
