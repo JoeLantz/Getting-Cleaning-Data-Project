@@ -19,6 +19,6 @@ This is my project submission for the Coursera 'Getting and Cleaning Data'
 
 
 
-The user should copy the 'run_analysis.R' file to their Working Directory, with the './data'
+The user should copy the 'run_analysis.R' file to their Working Directory, with the './data' directory and files below.
 The
 
