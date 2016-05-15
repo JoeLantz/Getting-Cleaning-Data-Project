@@ -20,11 +20,8 @@ This is my project submission for the Coursera 'Getting and Cleaning Data'
 6. The analyst should copy the 'run_analysis.R' file to their Working Directory, with the './data' directory and files below.
 7. The 'run_analysis.R' can be sourced to run all the steps at once.
 8. Or, alternatively, the file could be opened and each step run individually.
+9. The result is the tidy data data.frame, TidyData
 9. Ad CodeBook.md markup file is included in this repo that describes the variables and other information (based on Getting and Cleaning Data video)
 10. Also included is the output from the function codebook() from the library(memisc), "TidyData-cdbk.txt".
 
-
-The output is the data.frame TidayData.
-
-The steps in the  
  
