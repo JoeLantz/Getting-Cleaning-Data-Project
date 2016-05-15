@@ -11,11 +11,11 @@ This is my project submission for the Coursera 'Getting and Cleaning Data'
 4. It is necessary to copy the file over to a './data/' folders that the 'run_analysis.R' script has access to.
 5. The seven *.txt files from the are named in the Code Book markdown file.
 	The train files should be located in:
-		"./data/train/y_train.txt"  measurement data
-		"./data/train/X_train.txt"  subject observations
-	The test files should be located in:
-		"./data/test/y_test.txt"    measurement data
-		"./data/test/X_test.txt"    subject observations
+		"./data/train/y_train.txt"  measurement data									
+		"./data/train/X_train.txt"  subject observations								
+	The test files should be located in:											
+		"./data/test/y_test.txt"    measurement data									
+		"./data/test/X_test.txt"    subject observations								
 
 The analyst should copy the 'run_analysis.R' file to their Working Directory, with the './data' directory and files below.
 The 'run_analysis.R' can be sourced to run all the steps at once.
