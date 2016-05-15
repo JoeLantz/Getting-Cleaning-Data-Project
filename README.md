@@ -22,6 +22,6 @@ The 'run_analysis.R' can be sourced to run all the steps at once.
 Or, alternatively, the file could be opened and each step run individually.
 The output is the data.frame TidayData.
 
-The steps in the 
+The steps in the  
 
  
