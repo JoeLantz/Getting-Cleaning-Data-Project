@@ -29,6 +29,7 @@ The work was performed in a series of steps described below:
       This tidy data frame consisted of 66 measurements on 30 subjects for 6 activities, or a dim(180,66)
   
 CODE BOOK
+
   Step 1.)
     testset - data set containing test subject measurement data
     trainset - data set containing train subject measurement data
