@@ -56,6 +56,7 @@ CODE BOOK
     TidyData - the tidy data set that was built from the totalsetMnStdActLabSubIntact
     ActivityTxt - the string vector of the 6 activities
     RowNames - the string vector built to rename row names in TidyData data.frame with subject and activity
+
     
 
 
