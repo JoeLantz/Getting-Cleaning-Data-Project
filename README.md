@@ -20,9 +20,9 @@ This is my project submission for the Coursera 'Getting and Cleaning Data'
 	
 		"./data/test/y_test.txt"    subject labels (Activity index)							
 		"./data/test/X_test.txt"    measurement data
-		"./data/test/"test/subject_test.txt"
+		"./data/test/subject_test.txt" Subject name index
 		
-	The description descriptive names of the values measured
+	The description descriptive names of the values measured.
 	
     	The text file that names the 561 measurements being record:
     	
