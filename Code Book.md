@@ -5,11 +5,14 @@ STUDY DESIGN
   The study was done by:                      
     	Smartlab - Non Linear Complex Systems Laboratory									
     	DITEN - Università degli Studi di Genova.										
-    	Via Opera Pia 11A, I-16145, Genoa, Italy.																			
+    	Via Opera Pia 11A, I-16145, Genoa, Italy.			
+    	
 Further information on the study can be found at the following website:   
     http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
     The .zip file below also has a nice README document with full details
-THE DATA																
+    
+THE DATA																          
+
   The data was obtained from the following website:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   The data consisted of measurements (561) of different activity (6) on 30 subjects (divided into 2 sets - train and test).
   There were 10299 rows of data in the data sets.
