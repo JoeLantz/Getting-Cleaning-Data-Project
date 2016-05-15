@@ -1,9 +1,12 @@
 The Code Book contains information on making a tidy data set from the data contained in the 'Human Activity Recognition Using Smartphones Dataset' experiments.
+
 STUDY DESIGN
+
   The study was done by:
-    	Smartlab - Non Linear Complex Systems Laboratory																		
-		DITEN - Università degli Studi di Genova.																			
-		Via Opera Pia 11A, I-16145, Genoa, Italy.																			
+  
+    	Smartlab - Non Linear Complex Systems Laboratory									
+    	DITEN - Università degli Studi di Genova.										
+    	Via Opera Pia 11A, I-16145, Genoa, Italy.																			
 Further information on the study can be found at the following website:
     http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
     The .zip file below also has a nice README document with full details
