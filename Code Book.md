@@ -50,29 +50,23 @@ CODE BOOK
   Step 2.)
   
     features - data set containing the text name for the measures 
-    MeanStdInd - the indices for selecting only the mean() and std() measurements
-    MeanStdIndSrt - the sorted indices set
-    totalsetMnStd - the measurement data set with only the select measuremenst
+    meanstdind - the indices for selecting only the mean() and std() measurements
+    totalsetmnstd - the measurement data set with only the selected measuremenst
     
   Step 3.)
 
-    totallabelTxt - the data set with the descriptive activity name 
-    totalsetMnStdAct - the measurement data set with the descriptive activity name column added
+    totallabelact - the data set with the  activity indices 
+    totalsetmnstdact - the measurement data set with the descriptive activity name column added
 
   Step 4.) 
   
-    totalsetMnStdActLab - the measurement data set with the descriptive measurement name added
+    subjecttrain - the data set with the train subject 'names' (integers)
+    subjecttest  - the data set with the test subject 'names' (integers)
+    totalsubject - the data set of merged train and test subject 'names' 
+    totalsetmnstdactsub - the data set of merged measurement data and subject 'names'
 
   Step 5.)
   
-    SubjectTrain - data set containing the train subjects (integer)
-    SubjectTest - data set containing the test subjects (integer)
-    totalSubject - merge (rbind) of SubjectTrain and SubjectTest
-    totalsetMnStdActLabSub - the measurement data set with subject column added
-    totalsetMnStdActLabSubIntact - the measurement data set with the activity (integer) column added
-      Note: This variable is used in the logical statement for selection of a specific activity for a specific subject
-    TidyData - the tidy data set that was built from the totalsetMnStdActLabSubIntact
-    ActivityTxt - the string vector of the 6 activities
-    RowNames - the string vector built to rename row names in TidyData data.frame with subject and activity
-
+    tidydata - the tidy data set containing the average (mean) of the subject/activity for each of the 66 std() mean() measurements
+    
   
